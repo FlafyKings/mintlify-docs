@@ -1,13 +1,13 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "Cabo Development",
   "logo": {
-    "dark": "/logo/dark.svg",
-    "light": "/logo/light.svg"
+    "dark": "/logo/cabo.svg",
+    "light": "/logo/cabo.svg"
   },
   "favicon": "/favicon.svg",
   "colors": {
-    "primary": "#0D9373",
+    "primary": "#DFA637",
     "light": "#07C983",
     "dark": "#0D9373",
     "anchors": {
@@ -25,12 +25,7 @@
     "name": "Dashboard",
     "url": "https://dashboard.mintlify.com"
   },
-  "tabs": [
-    {
-      "name": "API Reference",
-      "url": "api-reference"
-    }
-  ],
+  "tabs": [],
   "anchors": [
     {
       "name": "Documentation",
@@ -38,54 +33,48 @@
       "url": "https://mintlify.com/docs"
     },
     {
-      "name": "Community",
+      "name": "Contact us",
       "icon": "slack",
-      "url": "https://mintlify.com/community"
+      "url": "mailto: contact@betterside.dev"
     },
     {
-      "name": "Blog",
-      "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
+      "name": "Website",
+      "icon": "computer",
+      "url": "https://www.cabo-development.com/"
     }
   ],
   "navigation": [
     {
       "group": "Get Started",
+      "pages": ["introduction", "creating-account", "inviting-users"]
+    },
+    {
+      "group": "Assets",
+      "pages": ["assets/introduction", "assets/adding", "assets/filtering"]
+    },
+    {
+      "group": "Projects",
       "pages": [
-        "introduction",
-        "quickstart",
-        "development"
+        "projects/introduction",
+        "projects/adding",
+        "projects/filtering"
       ]
     },
     {
-      "group": "Essentials",
-      "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation",
-        "essentials/reusable-snippets"
-      ]
+      "group": "Layouts",
+      "pages": ["layouts/introduction", "layouts/adding", "layouts/filtering"]
     },
     {
-      "group": "API Documentation",
+      "group": "Interiors",
       "pages": [
-        "api-reference/introduction"
-      ]
-    },
-    {
-      "group": "Endpoint Examples",
-      "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
+        "interiors/introduction",
+        "interiors/adding",
+        "interiors/filtering"
       ]
     }
   ],
   "footerSocials": {
     "x": "https://x.com/mintlify",
-    "github": "https://github.com/mintlify",
     "linkedin": "https://linkedin.com/company/mintlify"
   }
 }
